@@ -7,7 +7,6 @@ function App() {
   const [products, setProducts] = useState([]); // store products
   const [loading, setloading] = useState(true); // loading state
 
-  // fetch data when loaded
   useEffect(() => {
     fetch("https://fakestoreapi.com/products")
       .then((response) => response.json())
