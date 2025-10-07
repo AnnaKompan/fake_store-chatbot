@@ -14,8 +14,6 @@ For storing static assets (product images)
 
 React frontend fetches assets directly from S3 URLs for faster delivery.
 
-///////
-
 ## Steps for Deployment
 
 1. ``npm run build``
